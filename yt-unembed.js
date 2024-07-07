@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Youtube UnEmbed
-// @version      0.1
+// @version      0.2
 // @description  Converts embedded Youtube iframes into links
 // @match        *://*/*
 // @exclude      *://*.youtube.com/*
 // @exclude      *://*.reddit.com/*
 // @exclude      *://looptube.io/*
 // @grant        none
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @run-at       document-idle
 // ==/UserScript==
 
@@ -15,7 +16,7 @@
 
   const SITE = "https://www.youtube.com"; //m.youtube Invidious etc
   const LINK_TO_TIMESTAMP = true;
-  const SHOW_PREVIEW_IMAGE = true;
+  const SHOW_PREVIEW_IMAGE = false;
 
   const replaceEmbeds = () => {
     document.querySelectorAll('iframe').forEach((frame) => {

@@ -8,6 +8,7 @@
 // @exclude      *://looptube.io/*
 // @grant        none
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
+// @updateURL    https://raw.githubusercontent.com/stevenya97/yt-unembed/main/yt-unembed.js
 // @run-at       document-idle
 // ==/UserScript==
 

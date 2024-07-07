@@ -10,6 +10,9 @@ Script forked from user `schiffern` discussed over on [this thread](https://news
 
 Click on the link, if using a userscript manager it should prompt to install. Else, download/paste it.
 
+### Image previews
+To enable previews, change line 19 `const SHOW_PREVIEW_IMAGE = false;` to read true instead of false.
+
 ### userscripts
 
 Included userscript requires a app or browser userscript manager

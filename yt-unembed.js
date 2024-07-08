@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube UnEmbed
 // @version      0.4
-// @description  Converts embedded Youtube iframes into links
+// @description  Converts embedded Youtube iframes into image previews or links
 // @author       schiffern, eikaramba, stevenya97
 // @license      MIT
 // @match        *://*/*

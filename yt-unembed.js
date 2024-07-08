@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Youtube UnEmbed
-// @version      0.2
+// @version      0.3
 // @description  Converts embedded Youtube iframes into links
 // @match        *://*/*
 // @exclude      *://*.youtube.com/*
@@ -33,6 +33,10 @@
           let img = document.createElement("img");
           img.src = "https://i.ytimg.com/vi/"+match[4]+"/mqdefault.jpg";
           img.alt="Preview image of Youtube video";
+          // improve styling
+          img.className = frame.className;
+          img.id = frame.id;
+          img.style.width = frame.width +"px";
           // 320 x 180 preview. For more resolution options see
           // https://medium.com/@viniciu_/how-to-get-the-default-thumbnail-url-for-a-youtube-video-b5497b3b6218
           elem.appendChild(img);

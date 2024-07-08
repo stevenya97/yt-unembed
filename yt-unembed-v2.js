@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name        Youtube UnEmbed v2
-// @description This branch uses mutation observer for performance and faster filtering
+// @description Converts embedded Youtube iframes into image previews or links. This version uses mutation observer for performance
 // @version     0.1
 // @author      schiffern, eikaramba, stevenya97
 // @license     MIT

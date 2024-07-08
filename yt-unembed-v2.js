@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name        Youtube UnEmbed v2
 // @description This branch uses mutation observer for performance and faster filtering
+// @version     0.1
 // @author      schiffern, eikaramba, stevenya97
 // @match       *://*/*
 // @exclude      *://*.youtube.com/*
 // @exclude      *://*.reddit.com/*
 // @exclude      *://looptube.io/*
+// @updateURL   https://raw.githubusercontent.com/stevenya97/yt-unembed/main/yt-unembed-v2.js
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==

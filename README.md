@@ -7,7 +7,8 @@ Script forked from user `schiffern` discussed over on [this thread](https://news
 
 [link to userscript](https://raw.githubusercontent.com/stevenya97/yt-unembed/main/yt-unembed.js)
 
-[permalink](https://github.com/stevenya97/yt-unembed/blob/6cbaaabbea9c8ec7568e23575531df52c416cab1/yt-unembed.js)
+[permalink](https://github.com/stevenya97/yt-unembed/blob/77a6747e280ad21860aec449973fd64a4e8c80f0/yt-unembed.js)
+
 
 Click on the link, if using a userscript manager it should prompt to install. Else, download/paste it.
 

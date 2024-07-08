@@ -19,7 +19,8 @@
 
   const SITE = "https://www.youtube.com"; //m.youtube Invidious etc
   const LINK_TO_TIMESTAMP = true;
-  const SHOW_PREVIEW_IMAGE = false;
+  const SHOW_PREVIEW_IMAGE = true;
+  const PREVIEW_FORCE_FILL_FRAME = true;
 
   const replaceEmbeds = () => {
     document.querySelectorAll('iframe').forEach((frame) => {
@@ -37,7 +38,10 @@
           // improve styling
           img.className = frame.className;
           img.id = frame.id;
-          img.style.width = frame.width +"px";
+          if(PREVIEW_FORCE_FILL_FRAME)
+              {
+                  img.style.width = frame.width +"px";
+              }
           // 320 x 180 preview. For more resolution options see
           // https://medium.com/@viniciu_/how-to-get-the-default-thumbnail-url-for-a-youtube-video-b5497b3b6218
           elem.appendChild(img);

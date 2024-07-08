@@ -3,6 +3,7 @@
 // @version      0.4
 // @description  Converts embedded Youtube iframes into links
 // @author       schiffern, eikaramba, stevenya97
+// @license      MIT
 // @match        *://*/*
 // @exclude      *://*.youtube.com/*
 // @exclude      *://*.reddit.com/*

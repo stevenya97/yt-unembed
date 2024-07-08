@@ -3,6 +3,7 @@
 // @description This branch uses mutation observer for performance and faster filtering
 // @version     0.1
 // @author      schiffern, eikaramba, stevenya97
+// @license     MIT
 // @match       *://*/*
 // @exclude      *://*.youtube.com/*
 // @exclude      *://*.reddit.com/*

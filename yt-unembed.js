@@ -2,6 +2,7 @@
 // @name         Youtube UnEmbed
 // @version      0.3
 // @description  Converts embedded Youtube iframes into links
+// @author       schiffern, eikaramba, stevenya97
 // @match        *://*/*
 // @exclude      *://*.youtube.com/*
 // @exclude      *://*.reddit.com/*

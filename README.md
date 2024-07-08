@@ -1,4 +1,4 @@
-# yt-unembed
+# Youtube UnEmbed
 Replaces YT embed iframes with image previews(optionally just links).
 
 Script forked from user `schiffern` and `eikaramba` discussed over on [this thread](https://news.ycombinator.com/item?id=40897205#40898756).

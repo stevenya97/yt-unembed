@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Youtube UnEmbed v2
 // @description Converts embedded Youtube iframes into image previews or links. This version uses mutation observer for performance
-// @version     0.1
+// @version     0.2
 // @author      schiffern, eikaramba, stevenya97
 // @license     MIT
 // @match       *://*/*
@@ -41,6 +41,7 @@
 
     const playButton = document.createElement("div");
     playButton.innerHTML = "▶";
+    playButton.style.paddingLeft ="5px";
     playButton.style.position = "absolute";
     playButton.style.top = "50%";
     playButton.style.left = "50%";

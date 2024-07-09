@@ -13,7 +13,7 @@ Script forked from user `schiffern` and `eikaramba` discussed over on [this thre
 Click on the link, if using a userscript manager it should prompt to install. Else, download/paste it.
 
 ### Image previews
-To enable previews, change line 19 `const SHOW_PREVIEW_IMAGE = false;` to read true instead of false.
+To disable previews and just show links, change line 19 `const SHOW_PREVIEW_IMAGE = true;` to read false instead of true.
 
 ### userscripts
 

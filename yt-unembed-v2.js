@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Youtube UnEmbed v2
 // @description Converts embedded Youtube iframes into image previews or links. This version uses mutation observer for performance
-// @version     0.2
+// @version     0.3
 // @author      schiffern, eikaramba, stevenya97
 // @license     MIT
 // @match       *://*/*
@@ -9,6 +9,7 @@
 // @exclude      *://*.reddit.com/*
 // @exclude      *://looptube.io/*
 // @updateURL   https://raw.githubusercontent.com/stevenya97/yt-unembed/main/yt-unembed-v2.js
+// @downloadURL   https://raw.githubusercontent.com/stevenya97/yt-unembed/main/yt-unembed-v2.js
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==

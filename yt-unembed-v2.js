@@ -10,6 +10,7 @@
 // @exclude      *://looptube.io/*
 // @updateURL   https://raw.githubusercontent.com/stevenya97/yt-unembed/main/yt-unembed-v2.js
 // @downloadURL   https://raw.githubusercontent.com/stevenya97/yt-unembed/main/yt-unembed-v2.js
+// @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
 // @grant        none
 // @run-at       document-idle
 // ==/UserScript==
